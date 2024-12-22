@@ -1,0 +1,17 @@
+m_status=input("you are married or not m/u:")
+
+if m_status=='u' or m_status=='U' :
+    #print('you are eligible for insurance')
+    gender=input("ente the gender:")
+    age=int(input("enter the age:"))
+    if (gender=='m' or gender=='M')and age>=30:
+        print("eligible for insurance")
+    elif(gender=='f' or gender=='F')and age>=25:
+        print("you are eligible for insurance")
+    else:
+        print("you are not eligbible for insurance")
+
+elif gender=='m' or gender=='M':
+    print("yoou are eligible for insurance")
+else:
+    print("you are not eligible for insurance")
