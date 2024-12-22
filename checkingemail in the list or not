@@ -1,0 +1,9 @@
+email_id=["sarathreddy9377@gmail.com","sarath977@gmai.com","viravi987@gmai.com"]
+new=input()
+if(new in email_id):
+        print("already created please create new one")
+else:
+        email_id.append(new)
+
+        print(email_id)
+
